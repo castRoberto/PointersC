@@ -6,13 +6,9 @@ void myPrint(const char M[]) {
 }
 
 int main() {
-
+    // C[i] = C+i
     char C[] = "Hello world";
     myPrint(C);
-
-    int B[2][3];
-    printf("\n\nMultidemencional: %d", B);
-    printf("\nMultidemencional: %d", &B[0][0]);
 
     return 0;
 }
